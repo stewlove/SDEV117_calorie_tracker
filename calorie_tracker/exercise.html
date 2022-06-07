@@ -1,0 +1,65 @@
+<!--
+    This file contains the markup for the calorie tracking calculator.
+    Author: Stewart Lovell
+    File: exercise.html
+    Date: 1/24/2022
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Calorie tracker!</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <main>
+            <div>
+                <section>
+                    <h1>Weight Conversion</h1>
+                    <div class="control-group">
+                        <label>Weight in lbs</label>
+                        <input type="text" id="lbs">
+                    </div>
+                    <button id="lbs-to-kgs">Convert to kgs</button>
+                </section>
+                <section>
+                    <h1>Workout METs</h1>
+                    <div class="control-group">
+                        <label>Workout type</label>
+                        <select id="workouts">
+                            <option value="16.0">Competitive Bicycle Racing</option>
+                            <option value="7.2">Playing Dance Dance Revolution</option>
+                            <option value="5.0">Military Obstacle Course Training</option>
+                            <option value="7.3">General Aerobics</option>
+                            <option value="10.0">Aerobic Dance Wearing 10-15lb Weights</option>
+                            <option value="4.5">Crab Fishing</option>
+                            <option value="2.5">Cooking/Food Preparation/Walking</option>
+                            <option value="8.3">Felling Large Sized Trees</option>
+                        </select>
+                    </div>
+                    <button id="workout-to-met">Convert to MET</button>
+                </section>
+                <section>
+                    <h1>Calories burned per minute</h1>
+                    <div class="control-group">
+                        <label>MET</label>
+                        <input type="text" id="met">
+                    </div>
+                    <div class="control-group">
+                        <label>Weight in kg</label>
+                        <input type="text" id="kgs">
+                    </div>
+                    <button id="calc-calories">Calculate calories</button>
+                </section>
+                <img src="colories.png" alt="">
+            </div>
+        </main>
+        <div>
+            <aside>
+                <textarea id="console"></textarea>
+            </aside>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>

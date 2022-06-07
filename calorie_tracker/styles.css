@@ -1,0 +1,67 @@
+/*
+    Web page styles for the calorie tracker page.
+    Author: Stewart Lovell
+    File: styles.css
+    Date: 1/24/2022
+*/
+
+body {
+    width: 960px;
+    margin: 0 auto;
+
+    background-color: #40476d;
+
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+}
+
+img {
+    width: 100%;
+}
+
+section
+{
+    background-color: #b2c3dc;
+    border: 0.5px solid black;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    margin-bottom: 10px;
+}
+
+input, select
+{
+    float: right;
+    width: 200px;
+}
+
+button
+{
+    border: 0.5px solid black;
+    background-color: #b6b9d2;
+    border-radius: 5px;
+    margin-bottom: 8px;
+    margin-left: 10px;
+}
+
+label
+{
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+h1
+{
+    margin: 5px;
+}
+
+div
+{
+    background-color: #b2c3dc;
+    padding: 10px;
+}
+
+#console
+{
+    height: 570px;
+    width: 555px;
+}
